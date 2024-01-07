@@ -1,34 +1,48 @@
 # GitHub Copilot 实用教程
+
 This is the repository for the LinkedIn Learning course `GitHub Copilot 实用教程`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+这是 LinkedIn Learning 课程 “GitHub Copilot实用教程” 的存储库。完整的课程可从[LinkedIn Learning][lil-course-url]获得。
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+_请在 main 分支中查看 README 文件以获取最新信息。_
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+## 使用说明
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+这个存储库为课程中的每个视频创建了相应的分支。您可以切换到特定分支，并查看该阶段的课程，或者将 `/tree/BRANCH_NAME` 添加到 URL 中以访问您要访问的分支。
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+## 分支
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
+分支结构与课程中的视频相对应。命名约定遵循`CHAPTER#_MOVIE#`格式。例如，`02_03`分支对应第二章第三个视频。
+
+有些分支会有一个起始状态和一个结束状态。这些状态用字母 `b` 表示“开始”，用字母 `e` 表示“结束”。`b` 分支包含视频开始时的代码。`e` 分支包含视频结束时的代码。`main` 分支保存课程最终状态的代码。
+
+当做出文件更改后，从一个练习文件分支切换到下一个时，您可能会收到类似这样的消息：
+
+```text
+error: Your local changes to the following files would be overwritten by checkout:        [files]
+Please commit your changes or stash them before you switch branches.
+Aborting
+```
+
+要解决此问题：
+
+1. 将更改添加到 git，可以使用这个命令：`git add`。
+2. 提交更改，使用这个命令：`git commit -m "some message"`。
+
+## 安装
+
+1. 要使用这些练习文件，您必须安装以下内容：
+
+    - [GitHub Copilot](https://copilot.github.com/)
+    - [Visual Studio Code](https://code.visualstudio.com/)
+    - [Python](https://www.python.org/downloads/)
+    - [Node.js](https://nodejs.org/en/download/)
+    - [Git](https://git-scm.com/downloads)
+
+2. 使用 terminal（Mac）、CMD（Windows）或 SourceTree 等 GUI 工具将此存储库克隆到本地机器上。
 3. [Course-specific instructions]
-
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
 [lil-course-url]: https://www.linkedin.com/learning/
 [lil-thumbnail-url]: http://
-
