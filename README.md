@@ -36,7 +36,6 @@ Aborting
     - [GitHub Copilot](https://copilot.github.com/)
     - [Visual Studio Code](https://code.visualstudio.com/)
     - [Python](https://www.python.org/downloads/)
-    - [Node.js](https://nodejs.org/en/download/)
     - [Git](https://git-scm.com/downloads)
 
 2. 使用 terminal（Mac）、CMD（Windows）或 SourceTree 等 GUI 工具将此存储库克隆到本地机器上。
