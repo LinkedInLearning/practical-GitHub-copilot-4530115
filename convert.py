@@ -1,7 +1,6 @@
 import os
 
-# Create a function that reads audio files in the mp3 format from 
-# the 'audio' directory and returns a list of them.
+# 从 audio 文件夹中读取 mp3 文件并返回一个列表
 def get_audio_files():
     audio_files = []
     for file in os.listdir('audio'):
@@ -9,4 +8,5 @@ def get_audio_files():
             audio_files.append(file)
     return audio_files
 
+# 打印 audio 文件夹中的 mp3 文件
 print(get_audio_files())
