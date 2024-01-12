@@ -46,3 +46,33 @@
   file: /audio/TFIT01.mp3
   duration: 00:00:35
   length: 576,324
+- title: 人工智能在医疗领域的应用
+  description: 在这一集中，我们邀请了医疗 AI 专家张华，讨论了人工智能在医疗领域的应用，包括疾病诊断、治疗方案设计以及患者管理等方面。
+  file: /audio/AI_in_Medicine.mp3
+  duration: 00:00:25
+  length: 400,000
+- title: 量子计算的未来
+  description: 量子计算专家李明在这一集中，分享了他对量子计算未来发展的看法，包括量子计算的原理、应用以及面临的挑战等内容。
+  file: /audio/Future_of_Quantum_Computing.mp3
+  duration: 00:00:30
+  length: 480,000
+- title: 大数据的挑战与机遇
+  description: 大数据专家王丽在这一集中，讨论了大数据的挑战与机遇，包括数据收集、处理、分析以及如何从大数据中获取有价值的信息等内容。
+  file: /audio/Challenges_and_Opportunities_in_Big_Data.mp3
+  duration: 00:00:28
+  length: 450,000
+- title: Exploring the Power of Machine Learning
+  description: In this episode, we dive deep into the world of machine learning and explore its applications across various industries. From predictive analytics to natural language processing, discover how machine learning is transforming the way we solve complex problems.
+  file: /audio/TFIT06.mp3
+  duration: 00:00:24
+  length: 400,000
+- title: The Future of Robotics and Automation
+  description: Join us as we discuss the exciting advancements in robotics and automation. From self-driving cars to industrial robots, learn about the latest technologies shaping the future of this field and the potential impact on our daily lives.
+  file: /audio/TFIT07.mp3
+  duration: 00:00:26
+  length: 450,000
+- title: Cybersecurity in the Digital Age
+  description: In this episode, we explore the critical importance of cybersecurity in today's digital age. From data breaches to ransomware attacks, understand the challenges faced by organizations and the strategies employed to protect sensitive information.
+  file: /audio/TFIT08.mp3
+  duration: 00:00:22
+  length: 380,000
