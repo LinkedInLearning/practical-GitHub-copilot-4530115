@@ -1,17 +1,20 @@
 import os
 import eyed3
+from datetime import timedelta
 
 def get_audio_files():
     audio_files = []
     for file in os.listdir('audio'):
         if file.endswith('.mp3'):
             audio_file = eyed3.load(os.path.join('audio', file))
-            comments = [comment.text for comment in audio_file.tag.comments]
-            comments_str = ', '.join(comments)
+            description = [comment.text for comment in audio_file.tag.comments]
+            description_str = ', '.join(description)
+            duration = str(timedelta(seconds=int(audio_file.info.time_secs)))  # 格式化 duration 字段
             audio_info = {
                 'title': audio_file.tag.title,
-                'comments': comments_str,
-                'file': '/audio/' + file  # 添加 /audio/ 前缀并将键名改为 file
+                'description': description_str,
+                'duration': duration,
+                'file': '/audio/' + file
             }
             audio_files.append(audio_info)
     return audio_files
