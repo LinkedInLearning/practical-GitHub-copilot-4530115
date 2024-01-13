@@ -1,6 +1,5 @@
 import os
 import eyed3
-import yaml
 
 def get_audio_files():
     audio_files = []
@@ -11,10 +10,12 @@ def get_audio_files():
             comments_str = ', '.join(comments)
             audio_info = {
                 'title': audio_file.tag.title,
-                'comments': comments_str
+                'comments': comments_str,
+                'file': '/audio/' + file  # 添加 /audio/ 前缀并将键名改为 file
             }
             audio_files.append(audio_info)
-    return yaml.dump(audio_files)
+    return audio_files
 
 # 调用函数并打印返回的列表
-print(get_audio_files())
+import yaml
+print(yaml.dump(get_audio_files(), sort_keys=False))
