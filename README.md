@@ -1,7 +1,5 @@
 # GitHub Copilot 实用教程
 
-This is the repository for the LinkedIn Learning course `GitHub Copilot 实用教程`. The full course is available from [LinkedIn Learning][lil-course-url].
-
 这是 LinkedIn Learning 课程 “GitHub Copilot实用教程” 的存储库。完整的课程可从[LinkedIn Learning][lil-course-url]获得。
 
 _请在 main 分支中查看 README 文件以获取最新信息。_
