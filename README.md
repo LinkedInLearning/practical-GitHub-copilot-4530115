@@ -37,7 +37,6 @@ Aborting
     - [Git](https://git-scm.com/downloads)
 
 2. 使用 terminal（Mac）、CMD（Windows）或 SourceTree 等 GUI 工具将此存储库克隆到本地机器上。
-3. [Course-specific instructions]
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
